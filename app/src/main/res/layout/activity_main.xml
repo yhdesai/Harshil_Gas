@@ -63,7 +63,7 @@
         android:layout_alignBottom="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="Phone: 0257-2226872"
+        android:text="Phone: +91-7304074171"
         android:textColor="#000" />
 
     <Button

@@ -30,11 +30,9 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                Intent callIntent = new Intent(Intent.ACTION_DIAL);
-                callIntent.setData(Uri.parse("tel:" + Uri.encode(PhoneNum.trim())));
-                callIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(callIntent);
-
+                String phone = "+917304074171";
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
+                startActivity(intent);
 
             }
 
