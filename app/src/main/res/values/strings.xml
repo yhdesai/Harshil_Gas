@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Harshil Gas</string>
+    <string name="name">Harshil Gas</string>
+    <string name="info">Gas company in Jalgaon, India</string>
+    <string name="address">Address : Shop No. 50, Old B.J. Market, Behind Police Chawk, Jalgaon, Maharashtra, 425001</string>
+    <string name="phone">Phone : +91-7304074171</string>
+    <string name="time">Hours : 8 AM : 6 PM</string>
 </resources>
